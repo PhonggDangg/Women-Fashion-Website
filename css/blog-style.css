@@ -1,0 +1,66 @@
+
+body{
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-family: gmv_din_pro;
+}
+
+.article-items{
+    margin:90px 40px;
+  
+    
+}
+.article-item{
+    margin: 10px;
+    width: 500px;
+    text-align: center;
+
+}
+.article-item .article-img > a{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 60%;
+}
+
+.article-item .article-img>a>img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.article-info{
+    padding: 15px 15px 0px 15px;;
+}
+.article-info >a{
+    color: #070707;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 700;
+ 
+}   
+.home-path{
+    padding: 15px 0;
+    position: relative;
+    overflow: hidden;
+    margin: 80px 0;
+    border-top: 1px solid #EFEFF4;
+    border-bottom: 1px solid #EFEFF4;
+}
+.home-path-info a, .home-path-info a{
+    color: black;
+}
+.home-path-info{
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+}
+

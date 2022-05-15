@@ -1,0 +1,144 @@
+*{
+    font-family: "Noto Serif", sans-serif;
+
+}
+#logo{
+    float: left;
+}
+.header {
+    height: 90px;
+    padding: 15px;
+}
+#menu{
+    float: left;
+}
+.container a{
+    font-size: large;
+    color: gray;
+    padding: 3px;
+    font-family: "Noto Serif", sans-serif;
+    
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.nav-item a:hover{
+    color:gainsboro;
+    font-weight: bold;
+    padding: 1px;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    z-index: 1;
+}
+.dropdown-content a{
+    font-size: medium;
+    float: none;
+    color: gray;    
+    text-decoration: none;  
+    font-family: "Noto Serif", sans-serif;
+}
+.dropdown-content a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 9px;
+    text-decoration: none;
+}
+#myCarousel li {
+    width: 15px;
+   height: 15px;
+   margin: 10px;
+   border-radius: 90%;
+}
+.img-new-products img {
+    width: 300px;
+}
+.row-newproducts{
+    margin-left: 20px;
+}
+.container-fluid{
+    clear: both;
+}
+.hr1{
+    width: 60%;
+    border-top: 1px solid #D7D7D9;
+}
+.hr2{
+    width: 80%;
+    border-top: 1px solid #D7D7D9;
+}
+.hr-newproducts hr{
+        height: 0px;
+        border: none;
+        border-top: 2px solid rgb(222, 222, 222);
+}
+.div_sp:hover{
+    background-color: whitesmoke;
+    border: 1px solid #D7D7D9;
+    border-radius: 8px;
+}
+.div_img{
+    overflow: hidden;
+    position: relative;
+
+}
+.div_img img{
+    transition: transform 1s;
+}
+.div_img:hover img{
+    transform: scale(1.2);
+    z-index: -1;
+}
+.div_img h3{
+    width: 300px;
+    background-color: beige;
+    top: 180px;
+    display: none;
+    position: absolute;
+}
+.add-to-cart{
+    position: absolute;
+}
+.hide{
+    display: none;
+}
+/* .myslide {
+    cursor: pointer;
+} */
+.footer{
+    border: 1px solid #D7D7D9;
+    background-color: whitesmoke;
+    height: 230px;
+}
+.tel {
+    height: 150px;
+    background-color: whitesmoke;
+    border-right: 1px solid #D7D7D9;
+    float: left;   
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.tel img{
+    width: 1.4rem;
+}
+.tel img:hover{
+    width: 1.6rem;
+}
+.tel span:hover{
+    font-weight: 600;
+}
+.p_Gia, .p_Ten{
+    font-weight: 600;
+}
+.bold{
+    font-size: large;
+    font-weight: 700;
+}

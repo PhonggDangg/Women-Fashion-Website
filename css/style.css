@@ -1,0 +1,227 @@
+.product{
+    padding: 100px 0;
+}
+.product-main{
+    width: 100%;
+}
+.product-content-left{
+    width: 50%;
+}
+.product-content-right{
+    width: 50%;
+    padding-left: 20px;
+}
+.product-content-left-img-big{
+    width: 80%;
+    padding-right: 20px;
+}
+.product-content-left-img-big img{
+    width: 100%;
+    cursor: pointer;
+}
+.product-content-left-img-small{
+    width: 20%;
+}
+.product-content-left-img-small img{
+    width: 100%;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    cursor: pointer;
+}
+.link{
+    text-align: center;
+}
+.link a{
+    color: rgba(102,102,102,0.7);
+    font-weight: normal;
+    text-decoration: none;
+}
+.diliver{
+    margin: 0 3px;
+    opacity: .35;
+
+}
+.product-content-right-name h1{
+    color:#3d3d3d ;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+}
+.product-content-right .is-diliver{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.is-diliver{
+    height: 3px;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 30px;
+    margin: 20px 0 20px;
+}
+.product-content-right-price{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 24px;
+}
+.procduct-content-right-color img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.procduct-content-right-color-img{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border: 1px solid rgba(0,0,0,0.1);
+    align-items: center;
+    justify-content: center;
+    margin: 12px 0;
+}
+.procduct-content-right-size p{
+    margin-bottom: 5px;
+}
+.size{
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+.size span{
+    display: inline-block;
+    padding: 3px 6px;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 12px 10px 12px 0;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+.quantity{
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.quantity p{
+    margin-right: 5px;
+}
+.quantity input{
+    width: 50px;
+    height: 25px;
+    padding-left: 7px;
+}
+.procduct-content-right-button{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.procduct-content-right-button button{
+    border-radius: 47px 50px;
+}
+.procduct-content-right-bottom{
+    padding-top: 30px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    position: relative;
+}
+.procduct-content-right-bottom-top{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+.title{
+    border-bottom: 1px solid rgba(0,0,0,0.1) ;
+
+}
+.title-item{
+    padding: 6px;
+    cursor: pointer;
+    margin-right: 6px;
+}
+
+.bottom-content{
+   font-size: 14px; 
+}
+.content-baoquan{
+    display: none;
+}
+.activeB{
+    display: none;
+}
+.product-related{
+    border-top: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: 50px;
+}
+.product-related-title{
+    margin: 20px 0;
+}
+.product-related-title p{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.product-related-item{
+    width: 20%;
+    height: 200px;
+    text-align: center;
+    padding: 0 6px;
+
+}
+.product-related-item img{
+    width: 100%;
+
+    
+}
+.product-related-item h1{
+    font-size: 14px;
+    color: #000000;
+    margin-top: 6px;
+}
+.product-related-item span{
+    font-size: 15px;
+    color: #000000;
+}
+.product-related-item a:hover{
+    text-decoration: none;
+    box-shadow: 2px #3d3d3d;
+
+}
+.item-img {
+    overflow: hidden;
+}
+.item-img img{
+    transition: all 1s ease;
+}
+.product-related-item img:hover{
+    transform: scale(1.25);
+}
+.product-related-item{
+    cursor: pointer;
+}
+
+
+.banner-sale img{
+    width: 100%;
+    height: 570px;
+    padding-top: 40px;
+    vertical-align: middle;
+}
+.product-sale{
+    border-top: 1px solid #3d3d3d;
+    padding: 50px;
+}
+
+.carousel-item {
+    overflow: hidden;
+}
+.carousel-item img{
+    transition: all 1s ease;
+}
+
+img:hover{
+    transform: scale(1.3);
+}

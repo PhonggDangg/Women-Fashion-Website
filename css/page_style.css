@@ -1,0 +1,180 @@
+body{
+    font-family: "Noto Serif", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.page-title{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    margin: 80px 20px 0 0;
+    padding: 15px 0;
+}
+.page-title-path {
+    position: relative;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.page-title-path ul li{
+    display: inline-block;
+    position: relative;
+    margin: 0 5px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.page-title-path ul li:nth-child(1)::before{
+    content: "/";
+    position: absolute;
+    right: -10px;
+    color: white;
+}
+.page-title-path ul li:nth-child(2)::before{
+    content: "/";
+    position: absolute;
+    right: -10px;
+    color: white;
+}
+.content-product-info{
+    text-align: justify;
+     line-height: 1.6;
+    font-size: 17px;
+}
+
+#category-content{
+    width: 60%;
+    position: relative;
+    margin: 30px auto;
+}
+.products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#newest, #best-sell #trend{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    -webkit-animation: slide-down .3s ease-out;
+    -moz-animation: slide-down .3s ease-out;
+    -webkit-animation: slide-down .3s ease-out;
+    -moz-animation: slide-down .5s ease-out;
+}
+@-webkit-keyframes slide-down{
+    0% {opacity: 0;}
+    20% {opacity: 1;}
+}
+#newest{
+    display: none;
+}
+#trend{
+    display: none;
+}
+.product{
+    border: 1px solid gainsboro;
+    width: 30%;
+    margin-bottom: 50px;
+    
+}
+.product-img{
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #f2f2f2;
+}
+.product-info{
+    text-align: center;
+    font-size: 13px;
+    margin: 20px;
+    font-weight: 600;
+}
+img{
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+   transition: transform 1s, box-shadow .3s;
+   vertical-align: middle;
+  
+}
+img:hover{
+    transform: scale(1.1);
+}
+
+.filter-bar{
+    background-color: rgba(0,0,0,.13);
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 0;
+    font-size: 12px;
+    border: 1px solid #f2f2f2;
+    overflow: hidden;
+}   
+.filter-bar_label{
+    margin: 16px;
+    
+}
+.filter-bar-btn{
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #f2f2f2;
+}
+.filter-bar_page{
+    display: flex;
+    align-items: center;
+   margin-left: auto;
+   padding-right: 20px;
+}
+.filter-bar_page-control{
+    display: flex;
+    width: 72px;
+    height: 34px;
+}
+
+.filter-bar_page-btn{
+    margin: 0 1px;
+    background-color: #fff;
+    flex: 1;
+    width:36px;
+    height: 34px;
+    border-radius: 3px;
+    border: 1px solid #f2f2f2;
+}
+.active{
+    background-color: #ee4d2d;
+    color: white;
+}
+.filter-bar_page-btn--disabled{
+    background-color: #f9f9f9;
+    cursor: default;
+}
+.filter-bar_page-icon{
+    padding: 8px 16px;
+    
+}
+.filter-bar_page-num{
+    margin-right: 10px;
+}
+
+
+#sitemap > li {
+    list-style: none;
+    font-weight: bold;
+}
+
+#sitemap > li a {
+    color: black;
+}
+
+#sitemap > li > ul li{
+    list-style: none;
+    font-weight: normal;
+}
